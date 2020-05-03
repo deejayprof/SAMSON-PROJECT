@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Righteous&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+   
+    font-family: 'Baloo Chettan 2', cursive;}
+a{
+    text-decoration: none;
+    color: rgb(235, 240, 241);
+}
+
+.navbar {
+    height: 2cm;
+    font-weight: bolder;
+    text-orientation: upright;
+    text-transform: lowercase;
+    word-spacing: 8px;
+    color:rgb(89, 18, 204) !important;  
+    padding-top: 0px;
+    margin-bottom: 0px;
+    font-size: x-large;
+    width: 100%;
+    background-color: brown;
+    text-transform: capitalize;
+}
+
+.navbar-col{
+    height: 2cm;
+    background-color: yellowgreen;
+    margin: 0px 0px 0px 0px;
+    position: sticky !important;
+    top: 0;
+    z-index: 1000;
+    color:blueviolet !important; 
+}
+
+.nav-header{
+    font-size: 30px;
+    color:white ;
+    font-weight: bolder;
+    padding: 10px 0px 0px 20px;
+    background-color:brown;
+    align-content: center;
+}
+
+a:hover{
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(85, 85, 85);
+    float: inline-start;
+    }
+
+.nav-buttons{
+    text-decoration: none !important;
+    color: rgb(85, 85, 85) !important;
+    border-color: brown;
+    float: right;
+    
+}
+
+.nav-sign{    
+    background-color: rgb(85, 85, 85);
+    margin: -8px 0px 0px 0px;
+    padding: 0px 25px 0px 25px;
+    border-color: black;
+    float:inline-start;
+        
+    }
+
+#button{
+    padding: 0px 10px 0px 10px;
+    color: rgb(85, 85, 85) !important;
+}
+.shop-img{
+    background-color:brown;
+    font-weight: 800;
+    border-radius: 50px;
+    font-size: xx-large;
+    float: left;
+    ;
+}
+
+.shop-img:hover{
+    background-color: crimson;
+    font-weight: bolder;
+    border-radius: 50px;
+}
+.for-home:hover{
+    background-color: yellowgreen;
+    font-weight: 900;  
+}
+
+.for-whole:hover{
+    background-color: crimson;
+    font-weight: 900; }
+
+.home button{
+        font-weight: lighter;
+        padding: 20px 10px 20px 10px;
+        position: absolute;
+        bottom: 30px;
+        right: 45%;
+        border-radius: 50%;
+}
+.wholesale button{
+    font-weight: lighter;
+    padding: 20px 10px 20px 10px;
+    position: absolute;
+    bottom: 40px;
+    left: 270px;
+border-radius: 60px;}
+    
+a:link, a:visited {
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:active {
+  background-color:red;
+}
+
+button, input {
+    overflow: visible;
+}
+
+button, input, optgroup, select {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    font-size: 30px;
+}
+.home-img{
+    position: relative;
+    display: inline;
+}
+.home-img button{
+    font-weight: lighter;
+    padding: 20px 40px 20px 40px;
+    position: relative;
+    bottom: -150px;
+    right: -1000px;
+}
+
+.main-img:hover{
+    background:red;
+}
+* {
+    box-sizing: border-box;
+    border-radius: 50px;
+}
+
+.email-form{
+    text-rendering: optimizeLegibility;
+    padding: 90px 0 150px;
+    background:rgb(243, 240, 240);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.email-form h1{
+    color: teal;
+    text-transform: uppercase;
+    text-shadow: rgb(85, 85, 85);
+    font-family: 'Righteous', cursive;
+}
+
+  div.gallery img {
+    width: 60%;
+    height: auto;
+    border-radius: 50%;
+    margin-left: 5px;
+    background-color: none;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+.why-opus{
+    position: relative;
+    font-size: 50px;
+}
+div.gallery {
+    margin: 5px;
+    float: right;
+    width: 180px;
+    display: contents;
+}
+
+.why-intro{
+    text-align: center;
+    color: white;
+    margin: 0px 0px 0px 0px;
+    background-color:rgb(48, 12, 177);
+    flex-direction: column;
+    border-top: 40px;
+    margin-top: 0px;
+    height: 550px;
+}
+.why-intro h1{
+    font-family: 'Righteous', cursive;
+    text-transform: uppercase;
+}
+.why-intro p{
+    font-size: x-large;
+    padding: 10px 50px 10px 50px;
+    text-align: center;
+}
+
+.signup{
+    background:rgb(85, 85, 85);
+    color: white;
+}
+
+.why-opus-float-text{
+    background: #555555;
+    padding: 10px 20px 10px 20px;
+    position: relative;
+    top: 20px;
+    margin: 10px 30px 10px 5px;
+    text-align: center;
+    display: inline-table;
+    color: whitesmoke !important;
+    font-size: x-large !important;
+    border-radius: 120px;
+
+}
+
+.why-opus-float-text:hover{
+    color:teal !important;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.second-img{
+    max-height: 100%;
+    max-width: 100%; 
+}
+
+.for-home-float-text:hover{
+    color:teal !important;
+    font-weight: normal;
+    cursor: pointer;
+}
+.about grid{
+    padding: 50px 30px 60px 30px;
+    margin: 0px 0px 0px 0px;
+    color: rgb(185, 19, 19);
+    max-width: 100%;
+    block-size: 200px;
+}
+.about{
+    display: inline-flex;
+    justify-content: flex-end;
+    padding: 50px 30px 60px 300px;
+}
+    
+.about h3{
+    font-family: 'Righteous', cursive;
+}
+
+.about p{
+    font-size: 130%;
+}
+
+
+.home{
+    background: #abe018;
+    position: relative;
+}
+
+.wholesale{
+    background: royalblue;
+    position: relative;
+    column-span: all;
+}
+
+h3{
+    text-align: auto;
+    font-size: smaller;}
+
+p{
+        text-align: auto;
+        font-size: 20px;}
+
+.home{         
+    background: #990303;
+    padding: 20px 50px 100px 50px;
+    color: whitesmoke !important;
+    font-size: 200%;
+    max-height: 100%;
+    max-width: 50%;
+    text-align: center;}
+
+.wholesale {
+    background: yellowgreen;
+    padding: 20px 40px 20px 40px;
+    color: whitesmoke !important;
+    font-size: 200%;
+    max-height: 100%;
+    max-width: 50%;
+    text-align: center;}
+
+
+.ings-title{
+    font-family: 'Righteous', cursive;
+    color: orangered;
+   text-transform: uppercase;
+   padding: 0px 0px 0px 10px;
+   margin-top: 10px;
+   max-width: 500px;
+}
+
+.further-details p{
+    max-width: 500px;
+    padding-left: 10px ;
+    
+}
+
+.further-details{
+    background: url(sam-images/plant-2004483_640.jpg);
+}
+
+.further-details h3{
+    font-family: 'Righteous', cursive;
+    color: black;
+   padding: 0px 0px 0px 10px;
+   margin-top: 10px;
+   max-width: 500px;
+   font-size: 20px;
+}
+
+.ings-slide img{
+    height: 500px;
+    width: 100%;
+}
+
+.footbar{
+    background: rgb(85, 85, 85);
+    color: white;
+    height: 10cm;
+    position: relative;
+}
+
+.footform{
+    text-align: center;
+    padding: 100px 10px 0px 500px;
+    width: 805px;
+}
+
+.subscribe{
+    background: rgb(31, 31, 31);
+    color: white;
+}
+
+.footlogo{
+    width: 130px;
+    color: white;
+    position: absolute;
+    top: 92px;
+    left: 50px;
+    text-align: center;
+    letter-spacing: 5px;
+    font-size: 48px;
+}
+.footlogo2{
+    width: 100px;
+    color: white;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    text-align: center;
+}
+
+.row{
+    margin-right: 0px !important;
+}
+
+.footerlogo{
+    position: absolute;
+    top: -35px;
+    left: 50px;
+}
+
+.copyright{
+    color: white;
+    font-style: italic;
+    position: absolute;
+    top: 250px;
+    left: 100px;
+}
+.copyright a{
+    color: white;
+    font-style: italic;
+}
+
+.footnav a{
+    color: white !important;
+   
+}
+
+.footnav ul{
+    list-style: none !important;
+}
+
+.footnav{
+    position: absolute;
+    top: 65px;
+    right: 110px;
+    width: 25%;
+    padding: 0px 0px 0px 0px;
+    display: flex;
+    }
+    
+
+.socials img{
+    display: inline-flex;
+    max-inline-size: 30px;
+    float: right;
+    transform: translate3d(-10px, 10px, 20px);
+    }
