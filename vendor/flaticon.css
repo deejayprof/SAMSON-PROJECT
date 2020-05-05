@@ -1,0 +1,51 @@
+element.style {
+}
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+user agent stylesheet
+div {
+    display: block;
+}
+#footer {
+    background-color: #08192b;
+    color: #869fb2;
+    padding-top: 50px;
+    font-size: 14px;
+}
+body {
+    color: #5f7d95;
+    font-family: Proxima Nova,Helvetica Neue,Helvetica,Roboto,Arial,sans-serif;
+    font-feature-settings: "kern","liga","pnum";
+    font-size: 1em;
+    -webkit-font-smoothing: antialiased;
+    line-height: 1.5;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+.container:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+*, :after, :before {
+    box-sizing: inherit;
+}
+::selection {
+    background-color: rgba(74,210,149,.5);

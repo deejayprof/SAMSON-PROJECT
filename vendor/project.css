@@ -187,6 +187,7 @@ button, input, optgroup, select {
 .why-opus{
     position: relative;
     font-size: 50px;
+    background-color: blue;
 }
 div.gallery {
     margin: 5px;
@@ -197,13 +198,13 @@ div.gallery {
 
 .why-intro{
     text-align: center;
-    color: brown;
+    color: whitesmoke;
     margin: 0px 0px 0px 0px;
-    background-color:white;
+    background-color: blue;
     flex-direction: column;
     border-top: 80px;
     margin-top: 0px;
-    height: 550px;
+    height: 600px;
 }
 .why-intro h1{
     font-family: 'Righteous', cursive;
