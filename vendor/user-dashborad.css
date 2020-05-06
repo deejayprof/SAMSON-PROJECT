@@ -85,6 +85,41 @@ a:hover{
     border-color: black;
         
     }
+.dropdown {
+        position: relative;
+        display: inline-block;
+        color: rgb(235, 240, 241);
+      }
+      
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color:brown;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+      }
+      
+.dropdown:hover .dropdown-content {
+    display: block;
+    }
+.footer {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 10%;
+        background-color: rgb(104, 102, 102);
+       
+        
+     }
+
+.footer p{
+        color: white;
+        font-size: small;
+    padding-top: 40px;}
+        
+           
 
 #button{
     padding: 0px 10px 0px 10px;
@@ -97,6 +132,11 @@ a:hover{
     font-size: xx-large;
     float: left;
     ;
+}
+
+.menu {
+    height: 180px;
+    margin-top: -30px;
 }
 
 .shop-img:hover{
@@ -142,9 +182,7 @@ font-size: small;
 float: right;
 margin: 100px 50px ;
 }
-a:active {
-  background-color:red;
-}
+
 
 button, input {
     overflow: visible;
@@ -209,6 +247,12 @@ button, input, optgroup, select {
     text-align: center;
   }
 
+  .navbar ul li a:hover {
+    color: inherit;
+    font-weight: initial;
+    background: #F2E5DF;
+    border-bottom: solid 1px #c51426;
+}
 .why-opus{
     position: relative;
     font-size: 50px;
@@ -228,20 +272,24 @@ div.gallery img{
     margin: 0px 0px 0px 0px;
     background-color: blue;
     flex-direction: column;
-    border-top: 40px;
+    border-top: 0px;
     margin-top: 0px;
-    height: 600px;
+    height: 565px;
 }
 .why-intro h1{
     font-family: 'Righteous', cursive;
-    text-transform: uppercase;
+    text-transform: capitalize;
     padding: 0px 0px 10px 150px;
     font-size: 3vw;
+   margin-top: -50px;
+
     }
 .why-intro p{
     font-size: 2vw;
-    padding: 10px 250px 10px 50px;
+    padding: 20px 250px 50px 50px;
     text-align: center;
+    color: black;
+    font-weight: bold;
     
 }
 
