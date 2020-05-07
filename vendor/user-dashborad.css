@@ -39,7 +39,6 @@ a{
 
 .nav-header{
     color:white ;
-    font-weight: bolder;
     padding: 10px 0px 0px 0px;
     background-color:brown;
     align-content: center;
@@ -108,16 +107,16 @@ a:hover{
         position: fixed;
         bottom: 0;
         width: 100%;
-        height: 10%;
-        background-color: rgb(104, 102, 102);
-       
+        height: 7%;
+        background-image: url('../vendor/images/mobile-phone-1419275_960_720.jpg');
+       height: 50px;
         
      }
 
 .footer p{
         color: white;
         font-size: small;
-    padding-top: 40px;}
+    padding-top: 0px;}
         
            
 
@@ -256,7 +255,7 @@ button, input, optgroup, select {
 .why-opus{
     position: relative;
     font-size: 50px;
-    background-color: blue;
+    background-image: url('../vendor/images/chess-1483735_960_720.jpg');
 }
 div.gallery img{
     margin: 5px;
@@ -268,13 +267,12 @@ div.gallery img{
 
 .why-intro{
     text-align: center;
-    color: whitesmoke;
+    color: brown;
     margin: 0px 0px 0px 0px;
-    background-color: blue;
     flex-direction: column;
     border-top: 0px;
     margin-top: 0px;
-    height: 565px;
+    height: 580px;
 }
 .why-intro h1{
     font-family: 'Righteous', cursive;

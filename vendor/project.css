@@ -29,7 +29,6 @@ a{
 
 .navbar-col{
     height: 2cm;
-    background-color: yellowgreen;
     margin: 0px 0px 0px 0px;
     position: sticky !important;
     top: 0;
@@ -142,9 +141,7 @@ font-size: small;
 float: right;
 margin: 100px 50px ;
 }
-a:active {
-  background-color:red;
-}
+
 
 button, input {
     overflow: visible;
@@ -212,7 +209,6 @@ button, input, optgroup, select {
 .why-opus{
     position: relative;
     font-size: 50px;
-    background-color: blue;
 }
 div.gallery img{
     margin: 5px;
@@ -224,24 +220,25 @@ div.gallery img{
 
 .why-intro{
     text-align: center;
-    color: whitesmoke;
+    color: brown;
     margin: 0px 0px 0px 0px;
-    background-color: blue;
     flex-direction: column;
     border-top: 40px;
     margin-top: 0px;
-    height: 600px;
+    background-image: url('./images/exhibition-2058783_1280.jpg');
+    background-repeat: no-repeat;
+    height: 525px;
 }
 .why-intro h1{
     font-family: 'Righteous', cursive;
     text-transform: uppercase;
-    padding: 0px 0px 10px 150px;
     font-size: 3vw;
     }
 .why-intro p{
-    font-size: 2vw;
+    font-size: 3vw;
     padding: 10px 250px 10px 50px;
     text-align: center;
+    color: white;
     
 }
 
