@@ -255,7 +255,8 @@ button, input, optgroup, select {
 .why-opus{
     position: relative;
     font-size: 50px;
-    background-image: url('../vendor/images/chess-1483735_960_720.jpg');
+    background-image: url('../vendor/images/workplace-2303851_1920.jpg');
+    background-size: cover;
 }
 div.gallery img{
     margin: 5px;
@@ -277,14 +278,15 @@ div.gallery img{
 .why-intro h1{
     font-family: 'Righteous', cursive;
     text-transform: capitalize;
-    padding: 0px 0px 10px 150px;
+    text-align: center;
+    /* padding: 0px 0px 10px 150px; */
     font-size: 3vw;
    margin-top: -50px;
 
     }
 .why-intro p{
     font-size: 2vw;
-    padding: 20px 250px 50px 50px;
+    padding-bottom: 50px;
     text-align: center;
     color: black;
     font-weight: bold;

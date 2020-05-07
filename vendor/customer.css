@@ -268,7 +268,7 @@ div.gallery img{
 
 .why-intro{
     text-align: center;
-    color: brown;
+    color: white;
     margin: 0px 0px 0px 0px;
     flex-direction: column;
     border-top: 0px;
@@ -285,7 +285,7 @@ div.gallery img{
     }
 .why-intro p{
     font-size: 2vw;
-    padding: 20px 250px 50px 50px;
+    padding-bottom: 50px ;
     text-align: center;
     color: brown;
     font-weight: bold;
